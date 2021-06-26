@@ -4,11 +4,33 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   background: #f8f8f8;
   color: #29292e;
 }
 
 body, input, button, textarea {
-  font: 400 16px 'Roboto', sans-serif;
+  font: 400 1.6rem 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 38%;
+  }
 }

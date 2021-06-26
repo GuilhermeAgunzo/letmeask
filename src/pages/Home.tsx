@@ -3,6 +3,7 @@ import { useHistory } from 'react-router'
 import illustrationImg from '../assets/images/illustration.svg'
 import logoImg from '../assets/images/logo.svg'
 import googleIconImg from '../assets/images/google-icon.svg'
+import upArrow from '../assets/images/up-arrow.svg'
 
 import '../styles/auth.scss'
 
@@ -53,6 +54,10 @@ export function Home() {
         <img src={illustrationImg} alt="Ilustração simbolizando perguntas e respostas" />
         <strong>Crie salas de Q&amp;A ao vivo</strong>
         <p>Tire as dúvidas da sua audiência em tempo-real</p>
+        <div className="arrowIcon">
+          <img src={upArrow} className="upArrow" alt="Arrasta pra baixo" />
+          <p> Arraste para cima </p>
+        </div>
       </aside>
       <main>
         <div className="main-content">

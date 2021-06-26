@@ -9,13 +9,12 @@ import answerImg from '../assets/images/answer.svg';
 import { Button } from '../components/Button';
 import { RoomCode } from '../components/RoomCode';
 // import { useAuth } from '../hooks/useAuth';
-// import { database } from '../services/firebase';
+import { database } from '../services/firebase';
 
 import { Question } from '../components/Question';
 
 import '../styles/room.scss';
 import { useRoom } from '../hooks/useRoom';
-import { database } from '../services/firebase';
 import { useHistory } from 'react-router-dom';
 
 
