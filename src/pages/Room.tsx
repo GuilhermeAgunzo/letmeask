@@ -12,9 +12,6 @@ import { Question } from '../components/Question';
 import '../styles/room.scss';
 import { useRoom } from '../hooks/useRoom';
 
-
-
-
 type RoomParams = {
   id: string;
 }
